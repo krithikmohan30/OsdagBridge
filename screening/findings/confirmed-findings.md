@@ -4,6 +4,21 @@ Base revision `d74f56dd7f22925fb8148cabf5740ed8d1e39ff3`. All findings below wer
 with the real desktop GUI or with the shipped validation API; no upstream source was modified.
 Existing issues were re-checked on 22 November 2026 before proposing any independent report.
 
+## Publication status
+
+Evidence was added as comments on the existing issues; no new issue was opened.
+
+| Finding | Issue | Comment |
+|---|---|---|
+| F1 | #20 | https://github.com/Nidhikhare12/OsdagBridge/issues/20#issuecomment-7076669657 |
+| F2 | #113 | https://github.com/Nidhikhare12/OsdagBridge/issues/113#issuecomment-7076669945 |
+| F3 | #92 | https://github.com/Nidhikhare12/OsdagBridge/issues/92#issuecomment-7076670193 |
+| F4 | #112 | https://github.com/Nidhikhare12/OsdagBridge/issues/112#issuecomment-7076670432 |
+| V1 | #96 | https://github.com/Nidhikhare12/OsdagBridge/issues/96#issuecomment-7076670718 |
+| V2 | #129 | https://github.com/Nidhikhare12/OsdagBridge/issues/129#issuecomment-7076671035 |
+
+V3 has no existing duplicate and remains documented in this report only.
+
 ## F1 — Custom girder unit weight is ignored
 
 - **Reproduction**: case B of `evidence/sequence-01`. Girder steel typed as Fy 375 MPa,
