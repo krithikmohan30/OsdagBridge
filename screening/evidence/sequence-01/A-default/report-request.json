@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "project_name": "Screening test A-default",
+    "project_location": "",
+    "designer": "Krithik M",
+    "client": "",
+    "company": "",
+    "group_name": "",
+    "subtitle": "",
+    "job_number": "",
+    "additional_comments": "",
+    "logo_path": null,
+    "report_date": "2026-11-21",
+    "reviewer": ""
+  },
+  "options": {
+    "sections": [
+      "exec_summary",
+      "project_info",
+      "input_parameters",
+      "loads",
+      "analysis",
+      "design_checks",
+      "drawings",
+      "quantities",
+      "standards",
+      "design_log_window",
+      "references"
+    ],
+    "include_figures": true,
+    "include_toc": true,
+    "include_pdf": true
+  },
+  "output_dir": "C:\\Users\\krith\\OsdagBridge\\screening\\evidence\\sequence-01\\A-default",
+  "file_stem": "application-report"
+}

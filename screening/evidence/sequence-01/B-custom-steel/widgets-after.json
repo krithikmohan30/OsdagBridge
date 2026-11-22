@@ -1,0 +1,1119 @@
+[
+  {
+    "class": "QMenuBar",
+    "name": "template_page_menu_bar",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QToolButton",
+    "name": "qt_menubar_ext_button",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "control_btn_widget",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "NoScrollComboBox",
+    "name": "analysis.member",
+    "visible": true,
+    "enabled": true,
+    "value": "All",
+    "options": [
+      "All",
+      "G1",
+      "G2",
+      "G3"
+    ]
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "NoScrollComboBox",
+    "name": "analysis.load_combination",
+    "visible": true,
+    "enabled": true,
+    "value": "SW",
+    "options": [
+      "SW",
+      "DD",
+      "1.0 DW",
+      "Crash barrier load",
+      "1.0 DL",
+      "Case1 1xClassA",
+      "WL Transverse",
+      "WL Longitudinal",
+      "WL Uplift",
+      "1.0 WL",
+      "EQ_X",
+      "EQ_Z",
+      "EQ_Y",
+      "1.5 EQ (a)",
+      "1.5 EQ (b)",
+      "1.5 EQ (c)",
+      "1.0 LL",
+      "1.0 DL + 1.0 LL",
+      "BASIC_1: 1.35DL + 1.75DW + 1.5LL + 0.9WL",
+      "BASIC_2: 1.35DL + 1.75DW + 1.15LL + 1.5WL",
+      "BASIC_3: 1.35DL + 1.75DW + 1.15LL + 0.9WL",
+      "BASIC_4: 1.0DL + 1.0DW + 1.5LL + 0.9WL",
+      "BASIC_5: 1.0DL + 1.0DW + 1.15LL + 1.5WL",
+      "BASIC_6: 1.0DL + 1.0DW + 1.15LL + 0.9WL",
+      "ACCIDENTAL_1: 1.0DL + 1.0DW + 0.75LL",
+      "ACCIDENTAL_2: 1.0DL + 1.0DW + 0.75LL",
+      "ACCIDENTAL_3: 1.0DL + 1.0DW + 0.75LL",
+      "SEISMIC_1: 1.35DL + 1.75DW + 0.2LL + 1.5EL",
+      "SEISMIC_2: 1.35DL + 1.75DW + 0.2LL + 0.75EL",
+      "SEISMIC_3: 1.0DL + 1.0DW + 0.2LL + 1.5EL",
+      "SEISMIC_4: 1.0DL + 1.0DW + 0.2LL + 0.75EL",
+      "SLS_RARE_1: 1.0DL + 1.2DW + 1.0LL + 0.6WL",
+      "SLS_RARE_2: 1.0DL + 1.2DW + 0.75LL + 1.0WL",
+      "SLS_RARE_3: 1.0DL + 1.2DW + 0.75LL + 0.6WL",
+      "SLS_RARE_4: 1.0DL + 1.0DW + 1.0LL + 0.6WL",
+      "SLS_RARE_5: 1.0DL + 1.0DW + 0.75LL + 1.0WL",
+      "SLS_RARE_6: 1.0DL + 1.0DW + 0.75LL + 0.6WL",
+      "SLS_FREQUENT_1: 1.0DL + 1.2DW + 0.75LL + 0.5WL",
+      "SLS_FREQUENT_2: 1.0DL + 1.2DW + 0.2LL + 0.6WL",
+      "SLS_FREQUENT_3: 1.0DL + 1.2DW + 0.2LL + 0.5WL",
+      "SLS_FREQUENT_4: 1.0DL + 1.0DW + 0.75LL + 0.5WL",
+      "SLS_FREQUENT_5: 1.0DL + 1.0DW + 0.2LL + 0.6WL",
+      "SLS_FREQUENT_6: 1.0DL + 1.0DW + 0.2LL + 0.5WL",
+      "SLS_QP_1: 1.0DL + 1.2DW",
+      "SLS_QP_2: 1.0DL + 1.0DW",
+      "Envelope ULS",
+      "Envelope SLS"
+    ]
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QCheckBox",
+    "name": "analysis.utilization",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "NoScrollComboBox",
+    "name": "dock.member_id",
+    "visible": true,
+    "enabled": true,
+    "value": "G1",
+    "options": [
+      "G1",
+      "G2",
+      "G3"
+    ]
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "NoScrollComboBox",
+    "name": "dock.load_combination",
+    "visible": true,
+    "enabled": true,
+    "value": "SW",
+    "options": [
+      "SW",
+      "DD",
+      "1.0 DW",
+      "Crash barrier load",
+      "1.0 DL",
+      "Case1 1xClassA",
+      "WL Transverse",
+      "WL Longitudinal",
+      "WL Uplift",
+      "1.0 WL",
+      "EQ_X",
+      "EQ_Z",
+      "EQ_Y",
+      "1.5 EQ (a)",
+      "1.5 EQ (b)",
+      "1.5 EQ (c)",
+      "1.0 LL",
+      "1.0 DL + 1.0 LL",
+      "BASIC_1: 1.35DL + 1.75DW + 1.5LL + 0.9WL",
+      "BASIC_2: 1.35DL + 1.75DW + 1.15LL + 1.5WL",
+      "BASIC_3: 1.35DL + 1.75DW + 1.15LL + 0.9WL",
+      "BASIC_4: 1.0DL + 1.0DW + 1.5LL + 0.9WL",
+      "BASIC_5: 1.0DL + 1.0DW + 1.15LL + 1.5WL",
+      "BASIC_6: 1.0DL + 1.0DW + 1.15LL + 0.9WL",
+      "ACCIDENTAL_1: 1.0DL + 1.0DW + 0.75LL",
+      "ACCIDENTAL_2: 1.0DL + 1.0DW + 0.75LL",
+      "ACCIDENTAL_3: 1.0DL + 1.0DW + 0.75LL",
+      "SEISMIC_1: 1.35DL + 1.75DW + 0.2LL + 1.5EL",
+      "SEISMIC_2: 1.35DL + 1.75DW + 0.2LL + 0.75EL",
+      "SEISMIC_3: 1.0DL + 1.0DW + 0.2LL + 1.5EL",
+      "SEISMIC_4: 1.0DL + 1.0DW + 0.2LL + 0.75EL",
+      "SLS_RARE_1: 1.0DL + 1.2DW + 1.0LL + 0.6WL",
+      "SLS_RARE_2: 1.0DL + 1.2DW + 0.75LL + 1.0WL",
+      "SLS_RARE_3: 1.0DL + 1.2DW + 0.75LL + 0.6WL",
+      "SLS_RARE_4: 1.0DL + 1.0DW + 1.0LL + 0.6WL",
+      "SLS_RARE_5: 1.0DL + 1.0DW + 0.75LL + 1.0WL",
+      "SLS_RARE_6: 1.0DL + 1.0DW + 0.75LL + 0.6WL",
+      "SLS_FREQUENT_1: 1.0DL + 1.2DW + 0.75LL + 0.5WL",
+      "SLS_FREQUENT_2: 1.0DL + 1.2DW + 0.2LL + 0.6WL",
+      "SLS_FREQUENT_3: 1.0DL + 1.2DW + 0.2LL + 0.5WL",
+      "SLS_FREQUENT_4: 1.0DL + 1.0DW + 0.75LL + 0.5WL",
+      "SLS_FREQUENT_5: 1.0DL + 1.0DW + 0.2LL + 0.6WL",
+      "SLS_FREQUENT_6: 1.0DL + 1.0DW + 0.2LL + 0.5WL",
+      "SLS_QP_1: 1.0DL + 1.2DW",
+      "SLS_QP_2: 1.0DL + 1.0DW",
+      "Envelope ULS",
+      "Envelope SLS",
+      "Design Envelope"
+    ]
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "PercentBarWidget",
+    "name": "util.flexure",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "PercentBarWidget",
+    "name": "util.shear",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "PercentBarWidget",
+    "name": "util.interaction",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "PercentBarWidget",
+    "name": "util.ltb",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "PercentBarWidget",
+    "name": "util.long_trans_shear",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "PercentBarWidget",
+    "name": "util.fatigue",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "PercentBarWidget",
+    "name": "util.stress_limitation",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "PercentBarWidget",
+    "name": "util.deflection_crack",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "DockCustomButton",
+    "name": "dock_custom_button",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QSvgWidget",
+    "name": "button_icon",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QLabel",
+    "name": "button_label",
+    "visible": true,
+    "enabled": true,
+    "value": "Generate Results Table"
+  },
+  {
+    "class": "DockCustomButton",
+    "name": "dock_custom_button",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QSvgWidget",
+    "name": "button_icon",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QLabel",
+    "name": "button_label",
+    "visible": true,
+    "enabled": true,
+    "value": "Generate Report"
+  },
+  {
+    "class": "InputDockIndicator",
+    "name": "input_dock_indicator",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "toggle_strip",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QPushButton",
+    "name": "toggle_strip_button",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QLineEdit",
+    "name": "qt_spinbox_lineedit",
+    "visible": false,
+    "enabled": true,
+    "value": "1.00"
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "LogDock",
+    "name": "logs_dock",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QTextEdit",
+    "name": "textEdit",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QLabel",
+    "name": "plotTitle",
+    "visible": false,
+    "enabled": true,
+    "value": "Shear Force Diagram  —  V<sub>y</sub> (kN)"
+  },
+  {
+    "class": "QLabel",
+    "name": "plotSubtitle",
+    "visible": false,
+    "enabled": true,
+    "value": "Load Case/Combination : SW"
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "BridgeComponentCheckbox",
+    "name": "cad_component_selector",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QCheckBox",
+    "name": "Bridge",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QCheckBox",
+    "name": "Girder",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QCheckBox",
+    "name": "Deck",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QCheckBox",
+    "name": "Cross Bracing",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QCheckBox",
+    "name": "Crash Barrier",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QCheckBox",
+    "name": "Median",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QCheckBox",
+    "name": "Railing",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QCheckBox",
+    "name": "Grillage view",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QCheckBox",
+    "name": "Node",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QCheckBox",
+    "name": "Node Numbers",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "CustomViewer3d",
+    "name": "qt_viewer_3d",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QSplitterHandle",
+    "name": "qt_splithandle_",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QSplitterHandle",
+    "name": "qt_splithandle_",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QSplitterHandle",
+    "name": "qt_splithandle_",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QSplitterHandle",
+    "name": "qt_splithandle_",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QSplitterHandle",
+    "name": "qt_splithandle_",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QSplitterHandle",
+    "name": "qt_splithandle_logs_dock",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "OutputDockIndicator",
+    "name": "output_dock_indicator",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "toggle_strip",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QPushButton",
+    "name": "toggle_strip_button",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QPushButton",
+    "name": "lock_btn",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": true,
+    "enabled": false
+  },
+  {
+    "class": "QGroupBox",
+    "name": "section.structure_group",
+    "visible": true,
+    "enabled": false
+  },
+  {
+    "class": "NoScrollComboBox",
+    "name": "structure.type",
+    "visible": true,
+    "enabled": false,
+    "value": "Highway Bridge",
+    "options": [
+      "Highway Bridge",
+      "Other"
+    ]
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QGroupBox",
+    "name": "section.project_group",
+    "visible": true,
+    "enabled": false
+  },
+  {
+    "class": "QPushButton",
+    "name": "project.location",
+    "visible": true,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "project.location_info_row",
+    "visible": true,
+    "enabled": false
+  },
+  {
+    "class": "QLabel",
+    "name": "project.location_info_label",
+    "visible": true,
+    "enabled": false,
+    "value": "Chennai (Nungambakkam), Tamil Nadu"
+  },
+  {
+    "class": "QGroupBox",
+    "name": "section.geometry_group",
+    "visible": true,
+    "enabled": false
+  },
+  {
+    "class": "QLineEdit",
+    "name": "geometry.span",
+    "visible": true,
+    "enabled": false,
+    "value": "20"
+  },
+  {
+    "class": "QLineEdit",
+    "name": "geometry.carriageway_width",
+    "visible": true,
+    "enabled": false,
+    "value": "5"
+  },
+  {
+    "class": "NoScrollComboBox",
+    "name": "geometry.include_median",
+    "visible": true,
+    "enabled": false,
+    "value": "No",
+    "options": [
+      "No",
+      "Yes"
+    ]
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "NoScrollComboBox",
+    "name": "geometry.footpath",
+    "visible": true,
+    "enabled": false,
+    "value": "None",
+    "options": [
+      "None",
+      "Single Side",
+      "Both Sides"
+    ]
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QLineEdit",
+    "name": "geometry.skew_angle",
+    "visible": true,
+    "enabled": false,
+    "value": "0"
+  },
+  {
+    "class": "QGroupBox",
+    "name": "section.additonal_geometry_group",
+    "visible": true,
+    "enabled": false
+  },
+  {
+    "class": "QPushButton",
+    "name": "geometry.additional_btn",
+    "visible": true,
+    "enabled": false
+  },
+  {
+    "class": "QGroupBox",
+    "name": "section.design_type_group",
+    "visible": true,
+    "enabled": false
+  },
+  {
+    "class": "NoScrollComboBox",
+    "name": "geometry.design_mode",
+    "visible": true,
+    "enabled": false,
+    "value": "Optimized",
+    "options": [
+      "Optimized",
+      "Custom"
+    ]
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QGroupBox",
+    "name": "section.material_group",
+    "visible": true,
+    "enabled": false
+  },
+  {
+    "class": "NoScrollComboBox",
+    "name": "material.girder",
+    "visible": true,
+    "enabled": false,
+    "value": "custom_steel_375_510",
+    "options": [
+      "E 250A",
+      "E 250B0",
+      "E 250BR",
+      "E 250C",
+      "E 275A",
+      "E 275B0",
+      "E 275BR",
+      "E 275C",
+      "E 300A",
+      "E 300B0",
+      "E 300BR",
+      "E 300C",
+      "E 350A",
+      "E 350B0",
+      "E 350BR",
+      "E 350C",
+      "E 410A",
+      "E 410B0",
+      "E 410BR",
+      "E 410C",
+      "E 450A",
+      "E 450BR",
+      "E 550A",
+      "E 550BR",
+      "E 600A",
+      "E 600BR",
+      "E 650A",
+      "E 650BR",
+      "custom_steel_375_510",
+      "Custom"
+    ]
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "NoScrollComboBox",
+    "name": "material.cross_bracing",
+    "visible": true,
+    "enabled": false,
+    "value": "E 350A",
+    "options": [
+      "E 250A",
+      "E 250B0",
+      "E 250BR",
+      "E 250C",
+      "E 275A",
+      "E 275B0",
+      "E 275BR",
+      "E 275C",
+      "E 300A",
+      "E 300B0",
+      "E 300BR",
+      "E 300C",
+      "E 350A",
+      "E 350B0",
+      "E 350BR",
+      "E 350C",
+      "E 410A",
+      "E 410B0",
+      "E 410BR",
+      "E 410C",
+      "E 450A",
+      "E 450BR",
+      "E 550A",
+      "E 550BR",
+      "E 600A",
+      "E 600BR",
+      "E 650A",
+      "E 650BR",
+      "custom_steel_375_510",
+      "Custom"
+    ]
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "NoScrollComboBox",
+    "name": "material.end_diaphragm",
+    "visible": true,
+    "enabled": false,
+    "value": "E 350A",
+    "options": [
+      "E 250A",
+      "E 250B0",
+      "E 250BR",
+      "E 250C",
+      "E 275A",
+      "E 275B0",
+      "E 275BR",
+      "E 275C",
+      "E 300A",
+      "E 300B0",
+      "E 300BR",
+      "E 300C",
+      "E 350A",
+      "E 350B0",
+      "E 350BR",
+      "E 350C",
+      "E 410A",
+      "E 410B0",
+      "E 410BR",
+      "E 410C",
+      "E 450A",
+      "E 450BR",
+      "E 550A",
+      "E 550BR",
+      "E 600A",
+      "E 600BR",
+      "E 650A",
+      "E 650BR",
+      "custom_steel_375_510",
+      "Custom"
+    ]
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "NoScrollComboBox",
+    "name": "material.deck",
+    "visible": true,
+    "enabled": false,
+    "value": "M40",
+    "options": [
+      "M15",
+      "M20",
+      "M25",
+      "M30",
+      "M35",
+      "M40",
+      "M45",
+      "M50",
+      "M55",
+      "M60",
+      "M65",
+      "M70",
+      "M75",
+      "M80",
+      "M85",
+      "M90",
+      "Custom"
+    ]
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": false
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": true,
+    "enabled": false
+  },
+  {
+    "class": "DockCustomButton",
+    "name": "dock_custom_button",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QSvgWidget",
+    "name": "button_icon",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QLabel",
+    "name": "button_label",
+    "visible": true,
+    "enabled": true,
+    "value": "Save Input"
+  },
+  {
+    "class": "DockCustomButton",
+    "name": "dock_custom_button",
+    "visible": true,
+    "enabled": false
+  },
+  {
+    "class": "QSvgWidget",
+    "name": "button_icon",
+    "visible": true,
+    "enabled": false
+  },
+  {
+    "class": "QLabel",
+    "name": "button_label",
+    "visible": true,
+    "enabled": false,
+    "value": "Design"
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QSplitterHandle",
+    "name": "qt_splithandle_",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QSplitterHandle",
+    "name": "qt_splithandle_",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QSplitterHandle",
+    "name": "qt_splithandle_",
+    "visible": true,
+    "enabled": true
+  }
+]

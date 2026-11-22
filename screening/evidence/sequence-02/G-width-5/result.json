@@ -1,0 +1,37 @@
+{
+  "started_at": "2026-11-22T13:50:58.980797+05:30",
+  "status": "DESIGN COMPLETED",
+  "case": {
+    "id": "G-width-5",
+    "span": "20",
+    "width": "5"
+  },
+  "python": "3.12.16 | packaged by conda-forge | (main, Oct 26 2026, 11:29:01) [MSC v.1944 64 bit (AMD64)]",
+  "pyside6": "6.12.0",
+  "instrumentation": "Drive real Qt design cases and preserve evidence without source edits.\n\nInstrumentation: subclass the completion slot to snapshot the worker result before\nthe upstream slot updates the GUI; auto-dismiss recorded message boxes; replace\nonly the save-file chooser with a deterministic evidence path. Basic inputs use\nQTest keyboard events and the real project-location dialog. Sequences use the\nactual unlock button and confirm its transient-result reset. Optional reports\nuse the report API with live CAD captures, not the report dialog workflow.\n",
+  "dialogs": [
+    {
+      "texts": [
+        "Clear Results",
+        "Unlocking will delete all results and plots.",
+        "Do you want to continue?"
+      ],
+      "screenshot": "dialog-01.png"
+    },
+    {
+      "texts": [
+        "Success",
+        "Saved OSI Successfully!"
+      ],
+      "screenshot": "dialog-02.png"
+    }
+  ],
+  "worker_exception": null,
+  "worker_traceback": "",
+  "cancelled": false,
+  "worker_finished_at": "2026-11-22T13:52:05.870361+05:30",
+  "input_locked": true,
+  "output_key_count": 1066,
+  "plot_widget_class": "MplPlotWidget",
+  "finished_at": "2026-11-22T13:52:19.761670+05:30"
+}

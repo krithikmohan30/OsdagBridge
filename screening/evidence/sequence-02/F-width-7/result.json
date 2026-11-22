@@ -1,0 +1,36 @@
+{
+  "started_at": "2026-11-22T13:48:59.363661+05:30",
+  "status": "DESIGN COMPLETED",
+  "scope": "GUI-driven design; engineering correctness requires reconciliation.",
+  "requested": {
+    "span_m": "20",
+    "carriageway_m": "5",
+    "skew_deg": "0"
+  },
+  "python": "3.12.16 | packaged by conda-forge | (main, Oct 26 2026, 11:29:01) [MSC v.1944 64 bit (AMD64)]",
+  "instrumentation": "Drive real Qt design cases and preserve evidence without source edits.\n\nInstrumentation: subclass the completion slot to snapshot the worker result before\nthe upstream slot updates the GUI; auto-dismiss recorded message boxes; replace\nonly the save-file chooser with a deterministic evidence path. Basic inputs use\nQTest keyboard events and the real project-location dialog. Sequences use the\nactual unlock button and confirm its transient-result reset. Optional reports\nuse the report API with live CAD captures, not the report dialog workflow.\n",
+  "dialogs": [
+    {
+      "texts": [
+        "Success",
+        "Saved OSI Successfully!"
+      ],
+      "screenshot": "dialog-01.png"
+    }
+  ],
+  "case": {
+    "id": "F-width-7",
+    "span": "20",
+    "width": "7"
+  },
+  "driver_sha256": "304da205b0070d905ad1618d6b766d85503c1371a6be76dbe8bd8f010109aa59",
+  "pyside6": "6.12.0",
+  "worker_exception": null,
+  "worker_traceback": "",
+  "cancelled": false,
+  "worker_finished_at": "2026-11-22T13:50:43.117879+05:30",
+  "input_locked": true,
+  "output_key_count": 1066,
+  "plot_widget_class": "MplPlotWidget",
+  "finished_at": "2026-11-22T13:50:57.317052+05:30"
+}

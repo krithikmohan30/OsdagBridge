@@ -1,0 +1,322 @@
+[
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "NoScrollComboBox",
+    "name": "analysis.member",
+    "visible": true,
+    "enabled": true,
+    "value": "All",
+    "options": [
+      "All",
+      "G1",
+      "G2",
+      "G3"
+    ]
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "NoScrollComboBox",
+    "name": "analysis.load_combination",
+    "visible": true,
+    "enabled": true,
+    "value": "SW",
+    "options": [
+      "SW",
+      "DD",
+      "1.0 DW",
+      "Crash barrier load",
+      "1.0 DL",
+      "Case1 1xClassA",
+      "WL Transverse",
+      "WL Longitudinal",
+      "WL Uplift",
+      "1.0 WL",
+      "EQ_X",
+      "EQ_Z",
+      "EQ_Y",
+      "1.5 EQ (a)",
+      "1.5 EQ (b)",
+      "1.5 EQ (c)",
+      "1.0 LL",
+      "1.0 DL + 1.0 LL",
+      "BASIC_1: 1.35DL + 1.75DW + 1.5LL + 0.9WL",
+      "BASIC_2: 1.35DL + 1.75DW + 1.15LL + 1.5WL",
+      "BASIC_3: 1.35DL + 1.75DW + 1.15LL + 0.9WL",
+      "BASIC_4: 1.0DL + 1.0DW + 1.5LL + 0.9WL",
+      "BASIC_5: 1.0DL + 1.0DW + 1.15LL + 1.5WL",
+      "BASIC_6: 1.0DL + 1.0DW + 1.15LL + 0.9WL",
+      "ACCIDENTAL_1: 1.0DL + 1.0DW + 0.75LL",
+      "ACCIDENTAL_2: 1.0DL + 1.0DW + 0.75LL",
+      "ACCIDENTAL_3: 1.0DL + 1.0DW + 0.75LL",
+      "SEISMIC_1: 1.35DL + 1.75DW + 0.2LL + 1.5EL",
+      "SEISMIC_2: 1.35DL + 1.75DW + 0.2LL + 0.75EL",
+      "SEISMIC_3: 1.0DL + 1.0DW + 0.2LL + 1.5EL",
+      "SEISMIC_4: 1.0DL + 1.0DW + 0.2LL + 0.75EL",
+      "SLS_RARE_1: 1.0DL + 1.2DW + 1.0LL + 0.6WL",
+      "SLS_RARE_2: 1.0DL + 1.2DW + 0.75LL + 1.0WL",
+      "SLS_RARE_3: 1.0DL + 1.2DW + 0.75LL + 0.6WL",
+      "SLS_RARE_4: 1.0DL + 1.0DW + 1.0LL + 0.6WL",
+      "SLS_RARE_5: 1.0DL + 1.0DW + 0.75LL + 1.0WL",
+      "SLS_RARE_6: 1.0DL + 1.0DW + 0.75LL + 0.6WL",
+      "SLS_FREQUENT_1: 1.0DL + 1.2DW + 0.75LL + 0.5WL",
+      "SLS_FREQUENT_2: 1.0DL + 1.2DW + 0.2LL + 0.6WL",
+      "SLS_FREQUENT_3: 1.0DL + 1.2DW + 0.2LL + 0.5WL",
+      "SLS_FREQUENT_4: 1.0DL + 1.0DW + 0.75LL + 0.5WL",
+      "SLS_FREQUENT_5: 1.0DL + 1.0DW + 0.2LL + 0.6WL",
+      "SLS_FREQUENT_6: 1.0DL + 1.0DW + 0.2LL + 0.5WL",
+      "SLS_QP_1: 1.0DL + 1.2DW",
+      "SLS_QP_2: 1.0DL + 1.0DW",
+      "Envelope ULS",
+      "Envelope SLS"
+    ]
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QCheckBox",
+    "name": "analysis.utilization",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "NoScrollComboBox",
+    "name": "dock.member_id",
+    "visible": true,
+    "enabled": true,
+    "value": "G1",
+    "options": [
+      "G1",
+      "G2",
+      "G3"
+    ]
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "NoScrollComboBox",
+    "name": "dock.load_combination",
+    "visible": true,
+    "enabled": true,
+    "value": "SW",
+    "options": [
+      "SW",
+      "DD",
+      "1.0 DW",
+      "Crash barrier load",
+      "1.0 DL",
+      "Case1 1xClassA",
+      "WL Transverse",
+      "WL Longitudinal",
+      "WL Uplift",
+      "1.0 WL",
+      "EQ_X",
+      "EQ_Z",
+      "EQ_Y",
+      "1.5 EQ (a)",
+      "1.5 EQ (b)",
+      "1.5 EQ (c)",
+      "1.0 LL",
+      "1.0 DL + 1.0 LL",
+      "BASIC_1: 1.35DL + 1.75DW + 1.5LL + 0.9WL",
+      "BASIC_2: 1.35DL + 1.75DW + 1.15LL + 1.5WL",
+      "BASIC_3: 1.35DL + 1.75DW + 1.15LL + 0.9WL",
+      "BASIC_4: 1.0DL + 1.0DW + 1.5LL + 0.9WL",
+      "BASIC_5: 1.0DL + 1.0DW + 1.15LL + 1.5WL",
+      "BASIC_6: 1.0DL + 1.0DW + 1.15LL + 0.9WL",
+      "ACCIDENTAL_1: 1.0DL + 1.0DW + 0.75LL",
+      "ACCIDENTAL_2: 1.0DL + 1.0DW + 0.75LL",
+      "ACCIDENTAL_3: 1.0DL + 1.0DW + 0.75LL",
+      "SEISMIC_1: 1.35DL + 1.75DW + 0.2LL + 1.5EL",
+      "SEISMIC_2: 1.35DL + 1.75DW + 0.2LL + 0.75EL",
+      "SEISMIC_3: 1.0DL + 1.0DW + 0.2LL + 1.5EL",
+      "SEISMIC_4: 1.0DL + 1.0DW + 0.2LL + 0.75EL",
+      "SLS_RARE_1: 1.0DL + 1.2DW + 1.0LL + 0.6WL",
+      "SLS_RARE_2: 1.0DL + 1.2DW + 0.75LL + 1.0WL",
+      "SLS_RARE_3: 1.0DL + 1.2DW + 0.75LL + 0.6WL",
+      "SLS_RARE_4: 1.0DL + 1.0DW + 1.0LL + 0.6WL",
+      "SLS_RARE_5: 1.0DL + 1.0DW + 0.75LL + 1.0WL",
+      "SLS_RARE_6: 1.0DL + 1.0DW + 0.75LL + 0.6WL",
+      "SLS_FREQUENT_1: 1.0DL + 1.2DW + 0.75LL + 0.5WL",
+      "SLS_FREQUENT_2: 1.0DL + 1.2DW + 0.2LL + 0.6WL",
+      "SLS_FREQUENT_3: 1.0DL + 1.2DW + 0.2LL + 0.5WL",
+      "SLS_FREQUENT_4: 1.0DL + 1.0DW + 0.75LL + 0.5WL",
+      "SLS_FREQUENT_5: 1.0DL + 1.0DW + 0.2LL + 0.6WL",
+      "SLS_FREQUENT_6: 1.0DL + 1.0DW + 0.2LL + 0.5WL",
+      "SLS_QP_1: 1.0DL + 1.2DW",
+      "SLS_QP_2: 1.0DL + 1.0DW",
+      "Envelope ULS",
+      "Envelope SLS",
+      "Design Envelope"
+    ]
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_viewport",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "PercentBarWidget",
+    "name": "util.flexure",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "PercentBarWidget",
+    "name": "util.shear",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "PercentBarWidget",
+    "name": "util.interaction",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "PercentBarWidget",
+    "name": "util.ltb",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "PercentBarWidget",
+    "name": "util.long_trans_shear",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "PercentBarWidget",
+    "name": "util.fatigue",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "PercentBarWidget",
+    "name": "util.stress_limitation",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "PercentBarWidget",
+    "name": "util.deflection_crack",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_hcontainer",
+    "visible": false,
+    "enabled": true
+  },
+  {
+    "class": "QWidget",
+    "name": "qt_scrollarea_vcontainer",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "DockCustomButton",
+    "name": "dock_custom_button",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QSvgWidget",
+    "name": "button_icon",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QLabel",
+    "name": "button_label",
+    "visible": true,
+    "enabled": true,
+    "value": "Generate Results Table"
+  },
+  {
+    "class": "DockCustomButton",
+    "name": "dock_custom_button",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QSvgWidget",
+    "name": "button_icon",
+    "visible": true,
+    "enabled": true
+  },
+  {
+    "class": "QLabel",
+    "name": "button_label",
+    "visible": true,
+    "enabled": true,
+    "value": "Generate Report"
+  }
+]

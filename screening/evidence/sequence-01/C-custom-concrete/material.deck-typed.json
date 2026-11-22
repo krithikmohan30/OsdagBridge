@@ -1,0 +1,14 @@
+{
+  "material.deck.fck": {
+    "requested": "45",
+    "displayed": "45"
+  },
+  "material.deck.fctm": {
+    "requested": "3.4",
+    "displayed": "3.4"
+  },
+  "material.deck.ecm": {
+    "requested": "35",
+    "displayed": "35"
+  }
+}

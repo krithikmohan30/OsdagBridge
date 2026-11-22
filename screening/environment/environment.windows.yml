@@ -1,0 +1,24 @@
+# Upstream environment.yml with nodefaults added to restrict channel selection.
+# Conda resolves editable pip paths relative to this manifest's directory.
+name: osdagbridge-env
+
+channels:
+  - osdag
+  - geompy
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python>=3.11,<3.13
+  - osdag::osdag
+  - matplotlib
+  - fiona
+  - shapely
+  - scipy>=1.10.1
+  - pydantic
+  - xarray
+  - pip
+  - pip:
+    - openseespy>=3.2.2.6
+    - opsvis
+    - -e ../..

@@ -1,0 +1,18 @@
+{
+  "method": "location_name",
+  "data": {
+    "state": "Tamil Nadu",
+    "district": "Chennai (Nungambakkam)"
+  },
+  "weather_data": {
+    "wind_speed": 50,
+    "zone": "III",
+    "z_value": 0.16,
+    "max_temp": 45,
+    "min_temp": 13.9,
+    "latitude": 13.0569,
+    "longitude": 80.2425
+  },
+  "display_text": "Chennai (Nungambakkam), Tamil Nadu",
+  "show_display": true
+}

@@ -1,0 +1,33 @@
+[
+  {"id": "A-default", "span": "20", "width": "5", "report": true},
+  {
+    "id": "B-custom-steel", "span": "20", "width": "5",
+    "materials": {
+      "material.girder": {
+        "material.girder.fy": "375",
+        "material.girder.fu": "510",
+        "material.girder.e": "210",
+        "material.girder.density": "78"
+      }
+    }
+  },
+  {
+    "id": "C-custom-concrete", "span": "20", "width": "5",
+    "materials": {
+      "material.deck": {
+        "material.deck.fck": "45",
+        "material.deck.fctm": "3.4",
+        "material.deck.ecm": "35"
+      }
+    },
+    "report": true
+  },
+  {"id": "D-span-25", "span": "25", "width": "5"},
+  {
+    "id": "E-reset-baseline", "span": "20", "width": "5",
+    "grades": {
+      "material.girder": "E 350A",
+      "material.deck": "M40"
+    }
+  }
+]

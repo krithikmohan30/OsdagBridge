@@ -1,0 +1,18 @@
+{
+  "material.girder.fy": {
+    "requested": "375",
+    "displayed": "375"
+  },
+  "material.girder.fu": {
+    "requested": "510",
+    "displayed": "510"
+  },
+  "material.girder.e": {
+    "requested": "210",
+    "displayed": "210"
+  },
+  "material.girder.density": {
+    "requested": "78",
+    "displayed": "78"
+  }
+}

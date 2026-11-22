@@ -1,0 +1,134 @@
+{
+  "captured_at": "2026-11-21T22:37:23.193192+05:30",
+  "python": "3.12.16 | packaged by conda-forge | (main, Oct 26 2026, 11:29:01) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\krith\\miniconda3\\envs\\osdagbridge-env\\python.exe",
+  "prefix": "C:\\Users\\krith\\miniconda3\\envs\\osdagbridge-env",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "imports": [
+    {
+      "module": "osdag_core",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"module_file\": null, \"version\": \"not exposed\"}",
+      "stderr": ""
+    },
+    {
+      "module": "PySide6.QtWidgets",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"module_file\": \"C:\\\\Users\\\\krith\\\\miniconda3\\\\envs\\\\osdagbridge-env\\\\Lib\\\\site-packages\\\\PySide6\\\\QtWidgets.cp312-win_amd64.pyd\", \"version\": \"not exposed\"}",
+      "stderr": ""
+    },
+    {
+      "module": "PySide6.QtWebEngineWidgets",
+      "ok": false,
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"C:\\Users\\krith\\miniconda3\\envs\\osdagbridge-env\\Lib\\importlib\\__init__.py\", line 90, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"<frozen importlib._bootstrap>\", line 1387, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 1360, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 1331, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 921, in _load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 813, in module_from_spec\n  File \"<frozen importlib._bootstrap_external>\", line 1293, in create_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\nImportError: DLL load failed while importing QtWebEngineWidgets: The specified module could not be found."
+    },
+    {
+      "module": "OCC.Core.gp",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"module_file\": \"C:\\\\Users\\\\krith\\\\miniconda3\\\\envs\\\\osdagbridge-env\\\\Lib\\\\site-packages\\\\OCC\\\\Core\\\\gp.py\", \"version\": \"not exposed\"}",
+      "stderr": ""
+    },
+    {
+      "module": "numpy",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"module_file\": \"C:\\\\Users\\\\krith\\\\miniconda3\\\\envs\\\\osdagbridge-env\\\\Lib\\\\site-packages\\\\numpy\\\\__init__.py\", \"version\": \"2.5.5\"}",
+      "stderr": ""
+    },
+    {
+      "module": "scipy",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"module_file\": \"C:\\\\Users\\\\krith\\\\miniconda3\\\\envs\\\\osdagbridge-env\\\\Lib\\\\site-packages\\\\scipy\\\\__init__.py\", \"version\": \"1.18.1\"}",
+      "stderr": ""
+    },
+    {
+      "module": "matplotlib",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"module_file\": \"C:\\\\Users\\\\krith\\\\miniconda3\\\\envs\\\\osdagbridge-env\\\\Lib\\\\site-packages\\\\matplotlib\\\\__init__.py\", \"version\": \"3.11.2\"}",
+      "stderr": ""
+    },
+    {
+      "module": "xarray",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"module_file\": \"C:\\\\Users\\\\krith\\\\miniconda3\\\\envs\\\\osdagbridge-env\\\\Lib\\\\site-packages\\\\xarray\\\\__init__.py\", \"version\": \"2026.9.0\"}",
+      "stderr": ""
+    },
+    {
+      "module": "pydantic",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"module_file\": \"C:\\\\Users\\\\krith\\\\miniconda3\\\\envs\\\\osdagbridge-env\\\\Lib\\\\site-packages\\\\pydantic\\\\__init__.py\", \"version\": \"2.14.4\"}",
+      "stderr": ""
+    },
+    {
+      "module": "fiona",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"module_file\": \"C:\\\\Users\\\\krith\\\\miniconda3\\\\envs\\\\osdagbridge-env\\\\Lib\\\\site-packages\\\\fiona\\\\__init__.py\", \"version\": \"1.10.1\"}",
+      "stderr": ""
+    },
+    {
+      "module": "shapely",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"module_file\": \"C:\\\\Users\\\\krith\\\\miniconda3\\\\envs\\\\osdagbridge-env\\\\Lib\\\\site-packages\\\\shapely\\\\__init__.py\", \"version\": \"2.2.0\"}",
+      "stderr": ""
+    },
+    {
+      "module": "openseespy.opensees",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"module_file\": \"C:\\\\Users\\\\krith\\\\miniconda3\\\\envs\\\\osdagbridge-env\\\\Lib\\\\site-packages\\\\openseespy\\\\opensees\\\\__init__.py\", \"version\": \"not exposed\"}",
+      "stderr": ""
+    },
+    {
+      "module": "ospgrillage",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"module_file\": \"C:\\\\Users\\\\krith\\\\OsdagBridge\\\\src\\\\ospgrillage\\\\__init__.py\", \"version\": \"0.6.0\"}",
+      "stderr": ""
+    },
+    {
+      "module": "opsvis",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"module_file\": \"C:\\\\Users\\\\krith\\\\miniconda3\\\\envs\\\\osdagbridge-env\\\\Lib\\\\site-packages\\\\opsvis\\\\__init__.py\", \"version\": \"not exposed\"}",
+      "stderr": ""
+    },
+    {
+      "module": "ifcopenshell",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"module_file\": \"C:\\\\Users\\\\krith\\\\miniconda3\\\\envs\\\\osdagbridge-env\\\\Lib\\\\site-packages\\\\ifcopenshell\\\\__init__.py\", \"version\": \"0.9.0post1\"}",
+      "stderr": ""
+    },
+    {
+      "module": "openpyxl",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"module_file\": \"C:\\\\Users\\\\krith\\\\miniconda3\\\\envs\\\\osdagbridge-env\\\\Lib\\\\site-packages\\\\openpyxl\\\\__init__.py\", \"version\": \"3.1.5\"}",
+      "stderr": ""
+    },
+    {
+      "module": "navcube",
+      "ok": true,
+      "returncode": 0,
+      "stdout": "{\"module_file\": \"C:\\\\Users\\\\krith\\\\miniconda3\\\\envs\\\\osdagbridge-env\\\\Lib\\\\site-packages\\\\navcube\\\\__init__.py\", \"version\": \"1.1.0\"}",
+      "stderr": ""
+    }
+  ],
+  "executables_on_path": {
+    "pdflatex": null,
+    "latexmk": null,
+    "ffmpeg": "C:\\Users\\krith\\miniconda3\\envs\\osdagbridge-env\\Library\\bin\\ffmpeg.EXE"
+  },
+  "scope": "Import checks only; GUI, CAD rendering, and design not verified."
+}

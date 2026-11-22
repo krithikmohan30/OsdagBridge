@@ -1,0 +1,9 @@
+{
+  "material.girder.density": "78",
+  "material.girder.fy": "375",
+  "material.girder.fu": "510",
+  "material.girder.e": "210",
+  "material.girder.g": "80.8",
+  "material.girder.poisson": "0.3",
+  "material.girder.thermal": "11.7"
+}

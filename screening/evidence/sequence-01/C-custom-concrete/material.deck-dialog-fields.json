@@ -1,0 +1,7 @@
+{
+  "material.deck.density": "24.5",
+  "material.deck.fck": "45",
+  "material.deck.fctm": "3.4",
+  "material.deck.ecm": "35",
+  "material.deck.thermal": "11.7"
+}

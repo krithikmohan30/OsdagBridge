@@ -1,0 +1,344 @@
+{
+  "captured_at": "2026-11-22T13:37:55.041867+05:30",
+  "scope": "Direct validation API checks; no UI interaction or structural design.",
+  "python": "3.12.16 | packaged by conda-forge | (main, Oct 26 2026, 11:29:01) [MSC v.1944 64 bit (AMD64)]",
+  "baseline_validation": {
+    "is_valid": true,
+    "errors": [],
+    "warnings": [],
+    "corrected_values": {}
+  },
+  "results": [
+    {
+      "case": "span-below",
+      "key": "geometry.span",
+      "value": 19.9,
+      "expected_valid": false,
+      "per_field_valid": false,
+      "per_field_response": [
+        20.0,
+        "Span must be between 20.0 m and 45.0 m (software limitation)."
+      ],
+      "osi": {
+        "is_valid": false,
+        "errors": [
+          "geometry.span: Span must be between 20.0 m and 45.0 m (software limitation)."
+        ],
+        "warnings": [],
+        "corrected_values": {
+          "geometry.span": 20.0
+        }
+      },
+      "per_field_matches_expectation": true,
+      "osi_matches_expectation": true
+    },
+    {
+      "case": "span-min",
+      "key": "geometry.span",
+      "value": 20,
+      "expected_valid": true,
+      "per_field_valid": true,
+      "per_field_response": null,
+      "osi": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "corrected_values": {}
+      },
+      "per_field_matches_expectation": true,
+      "osi_matches_expectation": true
+    },
+    {
+      "case": "span-max",
+      "key": "geometry.span",
+      "value": 45,
+      "expected_valid": true,
+      "per_field_valid": true,
+      "per_field_response": null,
+      "osi": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "corrected_values": {}
+      },
+      "per_field_matches_expectation": true,
+      "osi_matches_expectation": true
+    },
+    {
+      "case": "span-above",
+      "key": "geometry.span",
+      "value": 45.1,
+      "expected_valid": false,
+      "per_field_valid": false,
+      "per_field_response": [
+        45.0,
+        "Span must be between 20.0 m and 45.0 m (software limitation)."
+      ],
+      "osi": {
+        "is_valid": false,
+        "errors": [
+          "geometry.span: Span must be between 20.0 m and 45.0 m (software limitation)."
+        ],
+        "warnings": [],
+        "corrected_values": {
+          "geometry.span": 45.0
+        }
+      },
+      "per_field_matches_expectation": true,
+      "osi_matches_expectation": true
+    },
+    {
+      "case": "skew-min",
+      "key": "geometry.skew_angle",
+      "value": -15,
+      "expected_valid": true,
+      "per_field_valid": true,
+      "per_field_response": null,
+      "osi": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "corrected_values": {}
+      },
+      "per_field_matches_expectation": true,
+      "osi_matches_expectation": true
+    },
+    {
+      "case": "skew-max",
+      "key": "geometry.skew_angle",
+      "value": 15,
+      "expected_valid": true,
+      "per_field_valid": true,
+      "per_field_response": null,
+      "osi": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "corrected_values": {}
+      },
+      "per_field_matches_expectation": true,
+      "osi_matches_expectation": true
+    },
+    {
+      "case": "skew-above",
+      "key": "geometry.skew_angle",
+      "value": 15.1,
+      "expected_valid": false,
+      "per_field_valid": false,
+      "per_field_response": [
+        15.0,
+        "Skew angle must be between -15.0\u00b0 and 15.0\u00b0."
+      ],
+      "osi": {
+        "is_valid": false,
+        "errors": [
+          "geometry.skew_angle: Skew angle must be between -15.0\u00b0 and 15.0\u00b0."
+        ],
+        "warnings": [],
+        "corrected_values": {
+          "geometry.skew_angle": 15.0
+        }
+      },
+      "per_field_matches_expectation": true,
+      "osi_matches_expectation": true
+    },
+    {
+      "case": "deck-min",
+      "key": "typical_section.deck_thickness",
+      "value": 100,
+      "expected_valid": true,
+      "per_field_valid": true,
+      "per_field_response": null,
+      "osi": {
+        "is_valid": false,
+        "errors": [
+          "design_options.shear_studs.height: Stud height must be between 80 mm (4\u00d7 stud diameter) and 75 mm (deck thickness \u2212 25 mm)."
+        ],
+        "warnings": [],
+        "corrected_values": {
+          "design_options.shear_studs.height": 75.0
+        }
+      },
+      "per_field_matches_expectation": true,
+      "osi_matches_expectation": false
+    },
+    {
+      "case": "deck-max",
+      "key": "typical_section.deck_thickness",
+      "value": 500,
+      "expected_valid": true,
+      "per_field_valid": true,
+      "per_field_response": null,
+      "osi": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "corrected_values": {}
+      },
+      "per_field_matches_expectation": true,
+      "osi_matches_expectation": true
+    },
+    {
+      "case": "deck-below",
+      "key": "typical_section.deck_thickness",
+      "value": 99,
+      "expected_valid": false,
+      "per_field_valid": false,
+      "per_field_response": [
+        100,
+        "Deck thickness must be at least 100 mm."
+      ],
+      "osi": {
+        "is_valid": false,
+        "errors": [
+          "typical_section.deck_thickness: Deck thickness must be at least 100 mm.",
+          "design_options.shear_studs.height: Stud height must be between 80 mm (4\u00d7 stud diameter) and 74 mm (deck thickness \u2212 25 mm)."
+        ],
+        "warnings": [],
+        "corrected_values": {
+          "typical_section.deck_thickness": 100,
+          "design_options.shear_studs.height": 74.0
+        }
+      },
+      "per_field_matches_expectation": true,
+      "osi_matches_expectation": true
+    },
+    {
+      "case": "steel-fy-min",
+      "key": "material.girder.fy",
+      "value": 100,
+      "expected_valid": true,
+      "per_field_valid": true,
+      "per_field_response": null,
+      "osi": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "corrected_values": {}
+      },
+      "per_field_matches_expectation": true,
+      "osi_matches_expectation": true
+    },
+    {
+      "case": "steel-fy-max",
+      "key": "material.girder.fy",
+      "value": 1200,
+      "expected_valid": true,
+      "per_field_valid": true,
+      "per_field_response": null,
+      "osi": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "corrected_values": {}
+      },
+      "per_field_matches_expectation": true,
+      "osi_matches_expectation": true
+    },
+    {
+      "case": "steel-fy-above",
+      "key": "material.girder.fy",
+      "value": 1201,
+      "expected_valid": false,
+      "per_field_valid": false,
+      "per_field_response": [
+        1200.0,
+        "Yield Strength, Fy must be between 100.0 and 1200.0 MPa."
+      ],
+      "osi": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "corrected_values": {}
+      },
+      "per_field_matches_expectation": true,
+      "osi_matches_expectation": false
+    },
+    {
+      "case": "steel-e-below",
+      "key": "material.girder.e",
+      "value": 99,
+      "expected_valid": false,
+      "per_field_valid": false,
+      "per_field_response": [
+        100.0,
+        "Modulus of Elasticity, E must be between 100.0 and 300.0 GPa."
+      ],
+      "osi": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "corrected_values": {}
+      },
+      "per_field_matches_expectation": true,
+      "osi_matches_expectation": false
+    },
+    {
+      "case": "concrete-fck-below",
+      "key": "material.deck.fck",
+      "value": 9,
+      "expected_valid": false,
+      "per_field_valid": false,
+      "per_field_response": [
+        10.0,
+        "Characteristic Compressive Strength, fck must be between 10.0 and 80.0 MPa."
+      ],
+      "osi": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "corrected_values": {}
+      },
+      "per_field_matches_expectation": true,
+      "osi_matches_expectation": false
+    },
+    {
+      "case": "concrete-fck-max",
+      "key": "material.deck.fck",
+      "value": 80,
+      "expected_valid": true,
+      "per_field_valid": true,
+      "per_field_response": null,
+      "osi": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "corrected_values": {}
+      },
+      "per_field_matches_expectation": true,
+      "osi_matches_expectation": true
+    },
+    {
+      "case": "cross-bracing-fy-above",
+      "key": "material.cross_bracing.fy",
+      "value": 1201,
+      "expected_valid": false,
+      "per_field_valid": true,
+      "per_field_response": null,
+      "osi": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "corrected_values": {}
+      },
+      "per_field_matches_expectation": false,
+      "osi_matches_expectation": false
+    },
+    {
+      "case": "end-diaphragm-fy-above",
+      "key": "material.end_diaphragm.fy",
+      "value": 1201,
+      "expected_valid": false,
+      "per_field_valid": true,
+      "per_field_response": null,
+      "osi": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": [],
+        "corrected_values": {}
+      },
+      "per_field_matches_expectation": false,
+      "osi_matches_expectation": false
+    }
+  ]
+}
